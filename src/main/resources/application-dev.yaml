@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    hikari:
+      username: root
+      password: 123456
+  jpa:
+    show-sql: true
+
+droid:
+  id: 123
+  description: I'am a droid
